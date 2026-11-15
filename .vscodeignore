@@ -1,0 +1,9 @@
+# nicht ins veröffentlichte Paket (vsce / ovsx)
+.git/**
+.gitignore
+.vscodeignore
+test/**
+tools/**
+build.ps1
+*.vsix
+node_modules/**

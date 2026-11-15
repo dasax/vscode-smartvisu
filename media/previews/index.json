@@ -1,0 +1,517 @@
+{
+ "basic.checkbox": {
+  "w": 568,
+  "h": 168,
+  "docu": "3.5"
+ },
+ "basic.color": {
+  "w": 568,
+  "h": 64,
+  "docu": "3.5"
+ },
+ "basic.flip": {
+  "w": 568,
+  "h": 58,
+  "docu": "3.5"
+ },
+ "basic.glue": {
+  "w": 568,
+  "h": 101,
+  "docu": "3.5"
+ },
+ "basic.icon": {
+  "w": 568,
+  "h": 60,
+  "docu": "3.5"
+ },
+ "basic.input": {
+  "w": 568,
+  "h": 240,
+  "docu": "3.5"
+ },
+ "basic.listview": {
+  "w": 568,
+  "h": 203,
+  "docu": "3.5"
+ },
+ "basic.offset": {
+  "w": 568,
+  "h": 30,
+  "docu": "3.5"
+ },
+ "basic.print": {
+  "w": 568,
+  "h": 155,
+  "docu": "3.5"
+ },
+ "basic.roundslider": {
+  "w": 568,
+  "h": 238,
+  "docu": "3.6"
+ },
+ "basic.select": {
+  "w": 568,
+  "h": 240,
+  "docu": "3.5"
+ },
+ "basic.shifter": {
+  "w": 568,
+  "h": 40,
+  "docu": "3.5"
+ },
+ "basic.shutter": {
+  "w": 568,
+  "h": 200,
+  "docu": "3.5"
+ },
+ "basic.skylight": {
+  "w": 568,
+  "h": 240,
+  "docu": "3.6"
+ },
+ "basic.slider": {
+  "w": 568,
+  "h": 100,
+  "docu": "3.5"
+ },
+ "basic.stateswitch": {
+  "w": 568,
+  "h": 70,
+  "docu": "3.5"
+ },
+ "basic.symbol": {
+  "w": 568,
+  "h": 58,
+  "docu": "3.5"
+ },
+ "basic.tank": {
+  "w": 568,
+  "h": 40,
+  "docu": "3.5"
+ },
+ "basic.trigger": {
+  "w": 568,
+  "h": 56,
+  "docu": "3.5"
+ },
+ "basic.window": {
+  "w": 568,
+  "h": 240,
+  "docu": "3.6"
+ },
+ "calendar.list": {
+  "w": 568,
+  "h": 160,
+  "docu": "3.5"
+ },
+ "calendar.waste": {
+  "w": 568,
+  "h": 240,
+  "docu": "3.5"
+ },
+ "clock.countdown": {
+  "w": 568,
+  "h": 224,
+  "docu": "3.6"
+ },
+ "clock.countup": {
+  "w": 568,
+  "h": 114,
+  "docu": "3.6"
+ },
+ "clock.digiclock": {
+  "w": 568,
+  "h": 110,
+  "docu": "3.5"
+ },
+ "clock.iconclock": {
+  "w": 568,
+  "h": 60,
+  "docu": "3.5"
+ },
+ "clock.miniclock": {
+  "w": 568,
+  "h": 72,
+  "docu": "3.5"
+ },
+ "device.blind": {
+  "w": 568,
+  "h": 240,
+  "docu": "3.5"
+ },
+ "device.dimmer": {
+  "w": 568,
+  "h": 143,
+  "docu": "3.5"
+ },
+ "device.roofwindow": {
+  "w": 568,
+  "h": 40,
+  "docu": "3.5"
+ },
+ "device.rtr": {
+  "w": 568,
+  "h": 240,
+  "docu": "3.5"
+ },
+ "device.rtrslider": {
+  "w": 568,
+  "h": 240,
+  "docu": "3.6"
+ },
+ "device.shutter": {
+  "w": 568,
+  "h": 240,
+  "docu": "3.5"
+ },
+ "device.smallrtr": {
+  "w": 568,
+  "h": 240,
+  "docu": "3.6"
+ },
+ "device.smallshut": {
+  "w": 568,
+  "h": 240,
+  "docu": "3.5"
+ },
+ "device.uzsugraph": {
+  "w": 568,
+  "h": 240,
+  "docu": "3.5"
+ },
+ "device.uzsuicon": {
+  "w": 568,
+  "h": 60,
+  "docu": "3.5"
+ },
+ "device.uzsutable": {
+  "w": 568,
+  "h": 240,
+  "docu": "3.6"
+ },
+ "device.window": {
+  "w": 568,
+  "h": 150,
+  "docu": "3.6"
+ },
+ "icon.arrow": {
+  "w": 132,
+  "h": 77,
+  "docu": "3.5"
+ },
+ "icon.battery": {
+  "w": 132,
+  "h": 77,
+  "docu": "3.5"
+ },
+ "icon.battery2": {
+  "w": 132,
+  "h": 77,
+  "docu": "3.5"
+ },
+ "icon.blade": {
+  "w": 132,
+  "h": 77,
+  "docu": "3.5"
+ },
+ "icon.blade2": {
+  "w": 132,
+  "h": 77,
+  "docu": "3.5"
+ },
+ "icon.blade_arc": {
+  "w": 132,
+  "h": 77,
+  "docu": "3.5"
+ },
+ "icon.blade_z": {
+  "w": 132,
+  "h": 77,
+  "docu": "3.5"
+ },
+ "icon.cistern": {
+  "w": 132,
+  "h": 77,
+  "docu": "3.5"
+ },
+ "icon.clock": {
+  "w": 132,
+  "h": 77,
+  "docu": "3.5"
+ },
+ "icon.compass": {
+  "w": 132,
+  "h": 77,
+  "docu": "3.5"
+ },
+ "icon.garagedoor": {
+  "w": 132,
+  "h": 77,
+  "docu": "3.5"
+ },
+ "icon.graph": {
+  "w": 132,
+  "h": 77,
+  "docu": "3.5"
+ },
+ "icon.heating": {
+  "w": 132,
+  "h": 77,
+  "docu": "3.5"
+ },
+ "icon.light": {
+  "w": 132,
+  "h": 77,
+  "docu": "3.5"
+ },
+ "icon.meter": {
+  "w": 132,
+  "h": 77,
+  "docu": "3.5"
+ },
+ "icon.roofwindow": {
+  "w": 132,
+  "h": 77,
+  "docu": "3.5"
+ },
+ "icon.shutter": {
+  "w": 132,
+  "h": 77,
+  "docu": "3.5"
+ },
+ "icon.slidinggate": {
+  "w": 132,
+  "h": 77,
+  "docu": "3.5"
+ },
+ "icon.ventilation": {
+  "w": 132,
+  "h": 77,
+  "docu": "3.5"
+ },
+ "icon.volume": {
+  "w": 132,
+  "h": 77,
+  "docu": "3.5"
+ },
+ "icon.windmill": {
+  "w": 132,
+  "h": 77,
+  "docu": "3.5"
+ },
+ "icon.windrose": {
+  "w": 132,
+  "h": 77,
+  "docu": "3.5"
+ },
+ "icon.windsock": {
+  "w": 132,
+  "h": 77,
+  "docu": "3.5"
+ },
+ "icon.zenith": {
+  "w": 132,
+  "h": 77,
+  "docu": "3.5"
+ },
+ "multimedia.audio": {
+  "w": 568,
+  "h": 56,
+  "docu": "3.5"
+ },
+ "multimedia.image": {
+  "w": 568,
+  "h": 171,
+  "docu": "3.5"
+ },
+ "multimedia.playpause": {
+  "w": 568,
+  "h": 60,
+  "docu": "3.5"
+ },
+ "multimedia.timeslider": {
+  "w": 568,
+  "h": 40,
+  "docu": "3.5"
+ },
+ "phone.list": {
+  "w": 568,
+  "h": 240,
+  "docu": "3.5"
+ },
+ "phone.missedlist": {
+  "w": 568,
+  "h": 203,
+  "docu": "3.5"
+ },
+ "plot.bargraph": {
+  "w": 568,
+  "h": 240,
+  "docu": "3.6"
+ },
+ "plot.comfortchart": {
+  "w": 568,
+  "h": 240,
+  "docu": "3.5"
+ },
+ "plot.gauge": {
+  "w": 568,
+  "h": 240,
+  "docu": "3.5"
+ },
+ "plot.heatingcurve": {
+  "w": 568,
+  "h": 240,
+  "docu": "3.6"
+ },
+ "plot.period": {
+  "w": 568,
+  "h": 240,
+  "docu": "3.5"
+ },
+ "plot.pie": {
+  "w": 568,
+  "h": 240,
+  "docu": "3.5"
+ },
+ "plot.rtr": {
+  "w": 568,
+  "h": 240,
+  "docu": "3.5"
+ },
+ "plot.sparkline": {
+  "w": 568,
+  "h": 240,
+  "docu": "3.6"
+ },
+ "plot.temprose": {
+  "w": 568,
+  "h": 240,
+  "docu": "3.5"
+ },
+ "plot.timeshift": {
+  "w": 568,
+  "h": 240,
+  "docu": "3.6"
+ },
+ "plot.xyplot": {
+  "w": 568,
+  "h": 240,
+  "docu": "3.6"
+ },
+ "quad.blind": {
+  "w": 568,
+  "h": 24,
+  "docu": "3.6"
+ },
+ "quad.color": {
+  "w": 568,
+  "h": 50,
+  "docu": "3.6"
+ },
+ "quad.dimmer": {
+  "w": 568,
+  "h": 22,
+  "docu": "3.6"
+ },
+ "quad.input": {
+  "w": 568,
+  "h": 28,
+  "docu": "3.6"
+ },
+ "quad.mixed": {
+  "w": 568,
+  "h": 68,
+  "docu": "3.6"
+ },
+ "quad.playercontrol": {
+  "w": 568,
+  "h": 22,
+  "docu": "3.6"
+ },
+ "quad.print": {
+  "w": 568,
+  "h": 66,
+  "docu": "3.6"
+ },
+ "quad.rtr": {
+  "w": 568,
+  "h": 20,
+  "docu": "3.6"
+ },
+ "quad.select": {
+  "w": 568,
+  "h": 123,
+  "docu": "3.6"
+ },
+ "quad.shutter": {
+  "w": 568,
+  "h": 184,
+  "docu": "3.6"
+ },
+ "quad.stateswitch": {
+  "w": 568,
+  "h": 22,
+  "docu": "3.6"
+ },
+ "quad.symbol": {
+  "w": 568,
+  "h": 66,
+  "docu": "3.6"
+ },
+ "status.activelist": {
+  "w": 568,
+  "h": 110,
+  "docu": "3.6"
+ },
+ "status.badge": {
+  "w": 568,
+  "h": 40,
+  "docu": "3.6"
+ },
+ "status.collapse": {
+  "w": 568,
+  "h": 58,
+  "docu": "3.5"
+ },
+ "status.customstyle": {
+  "w": 568,
+  "h": 104,
+  "docu": "3.6"
+ },
+ "status.disable": {
+  "w": 568,
+  "h": 118,
+  "docu": "3.6"
+ },
+ "status.log": {
+  "w": 568,
+  "h": 240,
+  "docu": "3.6"
+ },
+ "status.message": {
+  "w": 568,
+  "h": 154,
+  "docu": "3.6"
+ },
+ "status.notify": {
+  "w": 568,
+  "h": 154,
+  "docu": "3.6"
+ },
+ "weather.current": {
+  "w": 568,
+  "h": 200,
+  "docu": "3.6"
+ },
+ "weather.forecast": {
+  "w": 568,
+  "h": 210,
+  "docu": "3.6"
+ },
+ "weather.forecastweek": {
+  "w": 568,
+  "h": 107,
+  "docu": "3.6"
+ }
+}
