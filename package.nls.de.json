@@ -1,5 +1,5 @@
 {
-	"description": "smartVISU-Seiten schneller schreiben: alle Widgets deiner smartVISU-Version mit Parameterhilfe, SmartHomeNG-Items als Vorschläge, Seitenstruktur als Snippets, Prüfung auf unbekannte Widgets und Items",
+	"description": "smartVISU-Seiten schneller schreiben: Widgets und Code-Blöcke mit Vorschau zum Hineinziehen, Autovervollständigung mit Strg+Leertaste, Hilfe zu jedem Parameter und SmartHomeNG-Items als Vorschläge",
 	"command.insertWidget": "Widget einfügen …",
 	"command.insertItem": "SmartHomeNG-Item einfügen …",
 	"command.openDocs": "Widget-Dokumentation öffnen",

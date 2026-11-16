@@ -1,5 +1,5 @@
 {
-	"description": "Write smartVISU pages faster: all widgets of your smartVISU version with parameter help, SmartHomeNG items as suggestions, page structure as snippets, checks for unknown widgets and items",
+	"description": "Write smartVISU pages faster: widgets and code blocks with previews to drag into the page, completion with Ctrl+Space, help for every parameter and SmartHomeNG items as suggestions",
 	"command.insertWidget": "Insert widget …",
 	"command.insertItem": "Insert SmartHomeNG item …",
 	"command.openDocs": "Open widget documentation",
