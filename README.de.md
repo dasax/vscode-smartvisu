@@ -1,4 +1,4 @@
-# smartVISU Assistant für VS Code
+# smartVISU Assist für VS Code
 
 ![](https://flagcdn.com/20x15/gb.png) [English](README.md)
 

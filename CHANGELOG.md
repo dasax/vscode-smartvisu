@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.2
+
+- Renamed to **smartVISU Assist** (extension ID `dasax.smartvisu-assist`, previously `dasax.smartvisu-assistant`).
+  Settings (`smartvisu.*`), commands and keyboard shortcuts stay the same; uninstall the old extension.
+
 ## 1.0.1
 
 - Short description names the key features: widgets and code blocks with previews, completion with Ctrl+Space,

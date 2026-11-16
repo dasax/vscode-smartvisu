@@ -1,5 +1,5 @@
 'use strict';
-// smartVISU Assistant – Unterstützung beim Erstellen von smartVISU-Seiten in VS Code:
+// smartVISU Assist – Unterstützung beim Erstellen von smartVISU-Seiten in VS Code:
 // Widgets je smartVISU-Version mit Parametern und Hilfe, SmartHomeNG-Items als Vorschläge, Struktur-Snippets.
 
 const vscode = require('vscode');

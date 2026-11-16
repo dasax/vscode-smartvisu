@@ -1,4 +1,4 @@
-# Baut smartvisu-assistant-<version>.vsix ohne Node/vsce und installiert es optional (für die lokale Entwicklung).
+# Baut smartvisu-assist-<version>.vsix ohne Node/vsce und installiert es optional (für die lokale Entwicklung).
 # Zum Veröffentlichen im Marketplace bzw. bei Open VSX stattdessen vsce/ovsx verwenden.
 #   .\build.ps1            -> nur bauen
 #   .\build.ps1 -Install   -> bauen und in VS Code installieren
