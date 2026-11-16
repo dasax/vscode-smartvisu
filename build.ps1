@@ -17,7 +17,8 @@ $files = @('package.json', 'extension.js', 'CHANGELOG.md', 'LICENSE', 'NOTICE.md
     (Get-ChildItem (Join-Path $root 'lib/l10n') -File | ForEach-Object { "lib/l10n/$($_.Name)" }) +
     (Get-ChildItem (Join-Path $root 'lib/shng') -File | ForEach-Object { "lib/shng/$($_.Name)" }) +
     (Get-ChildItem (Join-Path $root 'data') -File -Filter '*.json' | ForEach-Object { "data/$($_.Name)" }) +
-    (Get-ChildItem (Join-Path $root 'media') -File | ForEach-Object { "media/$($_.Name)" }) +
+    # Screenshots nur fürs README – das lädt sie von GitHub (siehe Convert-ReadmeLinks), im Paket wären sie Ballast
+    (Get-ChildItem (Join-Path $root 'media') -File | Where-Object { $_.Name -notlike 'screenshot-*' } | ForEach-Object { "media/$($_.Name)" }) +
     (Get-ChildItem (Join-Path $root 'media/previews') -File -ErrorAction SilentlyContinue | ForEach-Object { "media/previews/$($_.Name)" }) +
     (Get-ChildItem (Join-Path $root 'media/previews/blocks') -File -ErrorAction SilentlyContinue | ForEach-Object { "media/previews/blocks/$($_.Name)" })
 # "%description%" aus package.nls.json auflösen

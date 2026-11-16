@@ -15,6 +15,8 @@
   "widget.examples": "**Examples**",
   "widget.usage": "Used {0}× on your pages.",
   "widget.docu": "Documentation on docu.smartvisu.de",
+  "widget.docuLocal": "Documentation of your smartVISU installation ({0})",
+  "widget.docuCustom": "Documentation",
   "widget.preview": "*Preview from the smartVISU docs {0}*",
   "table.param": "Parameter",
   "table.type": "Type",

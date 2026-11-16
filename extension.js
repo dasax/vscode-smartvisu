@@ -163,10 +163,11 @@ async function activate(context) {
             const x = twig.contextAt(ed.document.getText(), ed.document.offsetAt(ed.selection.active));
             if (x.kind === 'expr' && x.call) w = c.view.get(x.call.name);
         }
-        const url = c && w ? docuUrl(cfg().get('docuUrl'), c.catalog.version, w) : null;
+        const d = c && env.docuFor(c);
+        const url = c && w ? docuUrl(d.template, c.catalog.version, w) : null;
         if (url) vscode.env.openExternal(vscode.Uri.parse(url));
         else if (w && w.source) vscode.window.showTextDocument(w.source, { selection: new vscode.Range(w.line || 0, 0, w.line || 0, 0) });
-        else vscode.env.openExternal(vscode.Uri.parse(`https://docu.smartvisu.de/${(c && c.catalog.version) >= '3.5' ? '3.5' : '3.3'}/index.php`));
+        else vscode.env.openExternal(vscode.Uri.parse(d ? d.index : 'https://docu.smartvisu.de/3.5/index.php'));
     });
 
     await updateStatus();

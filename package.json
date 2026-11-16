@@ -2,7 +2,7 @@
 	"name": "smartvisu-assistant",
 	"displayName": "smartVISU Assistant",
 	"description": "%description%",
-	"version": "0.3.7",
+	"version": "1.0.0",
 	"publisher": "dasax",
 	"license": "GPL-3.0-or-later",
 	"repository": {
@@ -276,6 +276,12 @@
 					"markdownDescription": "%config.installPath%",
 					"order": 1
 				},
+				"smartvisu.url": {
+					"type": "string",
+					"default": "",
+					"markdownDescription": "%config.url%",
+					"order": 2
+				},
 				"smartvisu.items.source": {
 					"type": "string",
 					"default": "auto",
@@ -354,7 +360,7 @@
 				},
 				"smartvisu.docuUrl": {
 					"type": "string",
-					"default": "https://docu.smartvisu.de/{docuVersion}/index.php?page={package}/widget_{widget}",
+					"default": "",
 					"markdownDescription": "%config.docuUrl%",
 					"order": 9
 				},

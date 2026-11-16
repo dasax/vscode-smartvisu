@@ -6,10 +6,12 @@
 
 Schreibe [smartVISU](https://www.smartvisu.de)-Seiten schneller und mit weniger Fehlern:
 
-- Alle Widgets deiner smartVISU-Version (2.9 bis 3.6) mit Parametern, Standardwerten und Beschreibung
-- [SmartHomeNG](https://www.smarthomeng.de)-Items als Vorschläge – sortiert nach dem, was an der Stelle passt
-- Seitenstruktur (Blöcke, Tabellenzeilen, Navigation, …) als Snippets
-- Prüfung auf unbekannte oder entfernte Widgets, fehlende Items und doppelte IDs
+- **Widgets und Code-Blöcke mit Vorschau**: alle Widgets deiner smartVISU-Version (2.9 bis 3.6) und fertige
+  Seitenbausteine (Blöcke, Tabellenzeilen, Navigation, …) übersichtlich neben dem Verzeichnisbaum – mit Vorschaubild,
+  per Drag & Drop oder ➕ in die Seite einfügen
+- **Autovervollständigung**: **Strg+Leertaste** schlägt im Editor die passenden Widgets vor, mit Hilfe zu jedem Widget
+- **Hilfe zu den Parametern**: beim Ausfüllen eines Widgets eine kurze Erklärung zum Parameter, in dem du gerade bist
+- **SmartHomeNG-Anbindung** (optional): passende Items werden vorgeschlagen und sind durchsuchbar
 
 ## Der smartVISU-Guide
 
@@ -46,7 +48,23 @@ Außerdem:
 - **Strg+Shift+Alt+G** springt in den Guide. Wie jeder Abschnitt lässt er sich verschieben, z.B. in die sekundäre
   Seitenleiste rechts.
 
-## Funktionen
+## Im Editor
+
+Beim Schreiben einer Seite hilft die Erweiterung direkt im Code – mit Vorschlägen, Hilfe und Prüfungen.
+
+![Item-Suche in device.dimmer mit Parameterhilfe und Item-Details](media/screenshot-editor.png)
+
+Was man im Bild sieht (auch hier englische Beschriftungen):
+
+- Auf einer Seite wird `device.dimmer` ausgefüllt. Im Item-Parameter steht `wohlicht` – die unscharfe Suche findet damit
+  `og.wohnzimmer.licht.…`, die getroffenen Buchstaben sind hervorgehoben. Rechts steht der Typ jedes Items; angeboten
+  werden nur Items, deren Typ zum Parameter passt.
+- **Oben** die Hilfe zu dem Parameter, in dem der Cursor steht: `item_switch`, Pflicht, erlaubte Typen `bool, num` und
+  die Beschreibung aus der smartVISU-Doku.
+- **Links** die Details zum markierten Item (mit **→** geöffnet): Typ und Attribute aus SmartHomeNG, z.B. die
+  KNX-Gruppenadressen; kursiv in Klammern das Struct, aus dem ein Attribut stammt (hier `lichtDimmbar`).
+
+Im Einzelnen:
 
 - **Widgets vorschlagen**: Beim Tippen (z.B. `dimmer`, `basic.`) oder mit **Strg+Leertaste** an jeder Stelle einer Seite
   erscheinen alle Widgets und Struktur-Snippets als Liste; jeder getippte Buchstabe kürzt die Liste (unscharfe Suche wie
@@ -124,7 +142,8 @@ Außerdem:
 | `smartvisu.insertParameters` | `learned` (Pflicht + üblich), `required` oder `all` |
 | `smartvisu.autoSuggest` | Vorschläge automatisch öffnen, wenn man mit Tab zu einem leeren Platzhalter springt |
 | `smartvisu.diagnostics` | Prüfungen an/aus |
-| `smartvisu.docuUrl` | Link zur Widget-Doku (Standard: docu.smartvisu.de) |
+| `smartvisu.url` | Web-Adresse der Installation, z.B. `http://smarthomeng/smartvisu`; leer: aus dem Netzwerkpfad abgeleitet (`\\server\smartvisu` → `http://server/smartvisu`) |
+| `smartvisu.docuUrl` | Link zur Widget-Doku; leer (Standard): die Doku, die mit deiner Installation kommt (`…/index.php?pages=docu`), wenn sie erreichbar ist und zur gewählten Version passt, sonst docu.smartvisu.de |
 | `smartvisu.language` | Sprache: `auto`, `en`, `de` |
 
 ## Erkennung

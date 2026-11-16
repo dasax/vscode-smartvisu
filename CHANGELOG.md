@@ -1,5 +1,24 @@
 # Changelog
 
+## 1.0.0
+
+First public release.
+
+- **smartVISU guide** in the Explorer: widgets and code blocks with previews, inserted with ➕, Enter or drag & drop
+- **Completion** for widgets (Ctrl+Space), parameter values and SmartHomeNG items, with help for every widget and
+  parameter, hover with docs, checks for unknown widgets and items, folding for Twig
+- Widgets of smartVISU 2.9 – 3.6, custom widgets from dropins and macro files; docs links lead to the documentation
+  of your own installation
+
+## 0.3.8
+
+- Docs links go to the documentation that comes with your smartVISU installation (`index.php?pages=docu`) – exactly
+  your version, also 3.6 (docu.smartvisu.de ends at 3.5). Used when it can be reached on the network and matches the
+  chosen version, otherwise docu.smartvisu.de as before.
+- New setting `smartvisu.url` (web address of the installation); empty: derived from the network path
+  (`\\server\smartvisu` → `http://server/smartvisu`). `smartvisu.docuUrl` is now empty by default and accepts `{base}`.
+- README: intro with the key features, section "In the editor" with a screenshot
+
 ## 0.3.7
 
 - License changed from MIT to GPL v3 or later, the same license as smartVISU, whose logo, widget data and

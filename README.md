@@ -6,10 +6,12 @@
 
 Write [smartVISU](https://www.smartvisu.de) pages faster and with fewer mistakes:
 
-- All widgets of your smartVISU version (2.9 to 3.6) with parameters, defaults and descriptions
-- [SmartHomeNG](https://www.smarthomeng.de) items as suggestions – sorted by what fits at that position
-- Page structure (blocks, table rows, navigation, …) as snippets
-- Checks for unknown or removed widgets, missing items and duplicate IDs
+- **Widgets and code blocks with previews**: all widgets of your smartVISU version (2.9 to 3.6) and ready-made page
+  building blocks (blocks, table rows, navigation, …) laid out next to the folder tree – with a preview image, inserted
+  into the page by drag & drop or with ➕
+- **Autocompletion**: **Ctrl+Space** suggests the matching widgets in the editor, with help for every widget
+- **Parameter help**: while filling in a widget, a short explanation of the parameter you are in
+- **SmartHomeNG integration** (optional): matching items are suggested and can be searched
 
 ## The smartVISU guide
 
@@ -43,7 +45,23 @@ Also:
   is added when inserting.
 - **Ctrl+Shift+Alt+G** jumps into the guide. Like any view it can be moved, e.g. to the secondary side bar on the right.
 
-## Features
+## In the editor
+
+While you write a page, the extension helps right in the code – with suggestions, help and checks.
+
+![Item search in device.dimmer with parameter help and item details](media/screenshot-editor.png)
+
+What you see in the picture:
+
+- `device.dimmer` is being filled in. The item parameter contains `wohlicht` – the fuzzy search finds
+  `og.wohnzimmer.licht.…` with it, the matched letters are highlighted. The type of each item is shown on the right;
+  only items whose type fits the parameter are offered.
+- **At the top** the help for the parameter the cursor is in: `item_switch`, required, allowed types `bool, num` and
+  the description from the smartVISU docs.
+- **On the left** the details of the selected item (opened with **→**): type and attributes from SmartHomeNG, e.g. the
+  KNX group addresses; in italics in brackets the struct an attribute comes from (here `lichtDimmbar`).
+
+In detail:
 
 - **Widget suggestions**: while typing (e.g. `dimmer`, `basic.`) or with **Ctrl+Space** anywhere on a page, all widgets
   and structure snippets appear as a list; every typed character narrows it down (fuzzy search like `bflip` →
@@ -120,7 +138,8 @@ Changes to the item files are picked up on save; otherwise use *smartVISU: Reloa
 | `smartvisu.insertParameters` | `learned` (required + usual), `required` or `all` |
 | `smartvisu.autoSuggest` | open suggestions automatically when jumping to an empty placeholder with Tab |
 | `smartvisu.diagnostics` | checks on/off |
-| `smartvisu.docuUrl` | link to the widget docs (default: docu.smartvisu.de) |
+| `smartvisu.url` | web address of the installation, e.g. `http://smarthomeng/smartvisu`; empty: derived from the network path (`\\server\smartvisu` → `http://server/smartvisu`) |
+| `smartvisu.docuUrl` | link to the widget docs; empty (default): the docs that come with your installation (`…/index.php?pages=docu`) if reachable and matching the chosen version, otherwise docu.smartvisu.de |
 | `smartvisu.language` | language: `auto`, `en`, `de` |
 
 ## Detection
