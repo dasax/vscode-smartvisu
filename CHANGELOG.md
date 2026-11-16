@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.1
+
+- Short description names the key features: widgets and code blocks with previews, completion with Ctrl+Space,
+  help for every parameter, SmartHomeNG items as suggestions
+
 ## 1.0.0
 
 First public release.
