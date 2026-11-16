@@ -1,6 +1,6 @@
 {
-	"name": "smartvisu-assist",
-	"displayName": "smartVISU Assist",
+	"name": "smartvisu-toolkit",
+	"displayName": "smartVISU Toolkit",
 	"description": "%description%",
 	"version": "1.0.0",
 	"publisher": "dasax",
@@ -246,7 +246,7 @@
 			}
 		],
 		"configuration": {
-			"title": "smartVISU Assist",
+			"title": "smartVISU Toolkit",
 			"properties": {
 				"smartvisu.version": {
 					"type": "string",
