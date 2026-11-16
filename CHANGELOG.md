@@ -1,18 +1,10 @@
 # Changelog
 
-## 1.0.2
-
-- Renamed to **smartVISU Assist** (extension ID `dasax.smartvisu-assist`, previously `dasax.smartvisu-assistant`).
-  Settings (`smartvisu.*`), commands and keyboard shortcuts stay the same; uninstall the old extension.
-
-## 1.0.1
-
-- Short description names the key features: widgets and code blocks with previews, completion with Ctrl+Space,
-  help for every parameter, SmartHomeNG items as suggestions
-
 ## 1.0.0
 
-First public release.
+First public release as **smartVISU Assist** (`dasax.smartvisu-assist`). Earlier test versions were called smartVISU
+Assistant (`dasax.smartvisu-assistant`) and smartVISU Widgets – uninstall them; settings (`smartvisu.*`), commands and
+keyboard shortcuts stay the same.
 
 - **smartVISU guide** in the Explorer: widgets and code blocks with previews, inserted with ➕, Enter or drag & drop
 - **Completion** for widgets (Ctrl+Space), parameter values and SmartHomeNG items, with help for every widget and

@@ -2,7 +2,7 @@
 	"name": "smartvisu-assist",
 	"displayName": "smartVISU Assist",
 	"description": "%description%",
-	"version": "1.0.2",
+	"version": "1.0.0",
 	"publisher": "dasax",
 	"license": "GPL-3.0-or-later",
 	"repository": {
